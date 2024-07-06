@@ -1,0 +1,263 @@
+.navi li{
+    display:inline-block;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.navi a{
+    color:white;
+    padding:10px 20px;
+    text-decoration: none;
+    font-size: large;
+    font-weight:400;
+}
+.navi{
+    background-color: black;
+    position: fixed;
+    width:100%;
+    z-index: 1;
+}
+.navi a:hover {
+    background-color: white;
+    color:black;
+  }
+.navi ul{
+    list-style-type: none;
+    margin: 0px;
+    padding-left: 20px;
+}
+body{
+    margin:0;
+}
+#search{
+    color:white;
+    position: relative;
+    margin:10px 20px;
+    padding:10px 20px;
+    float: right; 
+}
+#search:hover{
+    background-color: white;
+    color: #000000;
+}
+.cars{
+    position: relative;
+    top:64px;
+    
+}
+
+.desc{
+    font-weight: 500;
+}
+
+.content{
+    position: relative;
+    top:120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.singers img{
+    height:200px;
+    width:180px;
+}
+.singers{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:150px;
+    position: relative;
+    top:150px;
+    flex-basis: 500px;
+}
+.singers p{
+    position: relative;
+    left:40px;
+    font-weight: 500;
+}
+.blackbox{
+    background-color: black;
+    height:800px;
+    width:100%;
+    color: white;
+}
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+.whitebox{
+    border-bottom:10px;
+    display: grid;
+    grid-template-columns:800px;
+    grid-template-rows:50px 50px 50px;
+
+}
+.blackcent{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.totalblackcent{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
+.whitebox>div{
+    background-color: white;
+    color:black;
+    border-bottom:1px solid black;
+    text-align: justify;
+    
+}   
+.whitecent{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin:60px;
+}
+
+.blackbox #one{
+    position: relative;
+    top:50px;
+}
+.blackbox #two{
+    position: relative;
+    top:50px;
+}
+.sold{
+    background-color: red;
+    height: 25px;
+    width:80px;
+    position: relative;
+    left:90px;
+    margin:0;
+    bottom:19.5px;
+    color: white;
+}
+
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:20px;
+    position: relative;
+    bottom:50px;
+}
+.cards .custom{
+    background-color: black;
+    border-color: black;
+    color: white;
+}
+
+.cards .custom:hover {
+    background-color: white;
+    border-color: #000000; 
+    color: #000000;
+
+}
+
+.whitemain{
+    height: 430px;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.contact{
+    color: #000000;
+    font-weight: 400;
+    letter-spacing: 7px; 
+    margin-top: 40px;   
+
+}
+#contactcon{
+    color: grey;
+    font-size: 20px;
+
+}
+.whitecon{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.conmain{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    margin:40px;
+    gap:100px
+}
+#login{
+    display:grid;
+    grid-template-columns: 182px 111px 71px;
+    grid-template-rows: 38px 38px 38px;
+    gap:10px;
+    margin-left: 60px;
+}
+#login>#one{
+    grid-area: 1/1/2/2;
+}
+#login>#two{
+    grid-area: 1/2/2/4;
+}
+#login>#three{
+    grid-area: 2/1/3/4;
+}
+#login>button{
+    background-color: #000000;
+    color: white;
+    grid-area: 3/3/4/4;
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+
+}
+
+#coninfo>div{
+    font-weight: 550;
+    padding-bottom: 3px;
+}
+#login > input {
+    border: 0.5px solid rgba(0, 0, 0, 0.3);
+}
+#coninfo > div > svg {
+    margin-right: 5px; 
+}
+#login>button:hover{
+    background-color: white;
+    color: black;
+}
+
+.img{
+    width:100%;
+    height:710px;
+}
+.img>img{
+    width:100%;
+    height:710px;
+}
+footer{
+    width:100%;
+    height:200px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    
+}
+footer>div{
+    color:grey;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+footer>div>svg{
+    height:35px;
+    width:35px;
+}
+
+footer>div>svg:hover{
+    height:35px;
+    width:35px;
+    color: black;
+}
